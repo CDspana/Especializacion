@@ -9,6 +9,13 @@ Desarrollar una herramienta de análisis de sentimientos que pueda extraer infor
 
 Se llevará a cabo la implementación y entrenamiento de un modelo de Procesamiento del Lenguaje Natural (NLP) con la capacidad de predecir la categoría de un texto dado como positivo, neutro o negativo.
 
+# Contenido
+
+- DB_temp: Contiene la base de datos temporal con la que se ha entrenado el modelo de word2vec.
+- notebooks:
+  - preprocesamiento.ipynb: Se describe diferentes formas de tokenización y preprocesamiento de palabras como stopwords.
+  - Word2Vec.ipynb: Con la ayuda de tensorflow se implementa y entrena desde cero un modelo skip-gram para obtener embedding. Ademas, se utiliza la libreria Gensim para la creación de embeddings.
+
 #  Instrucciones de uso
 
 - Clonar repositorio:
