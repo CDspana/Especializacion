@@ -22,3 +22,10 @@ Se llevará a cabo la implementación y entrenamiento de un modelo de Procesamie
 - Se a logrado implementar y entrenar un modelo desde cero por medio de tensorflow capaz de generar embeddings de palabras.
 
 - los embeddings obtenidos con  la biblioteca gensim presenta una mayor similitud semantica con respecto a los embeddings entrenados desde cero utilizando tensorflow, esto se debe a que gensim ya posee un preentrenamiento sobre corpus de datos mas grandes.
+
+# Referencias:
+
+[1] Mikolov, T., Sutskever, I., Chen, K., Corrado, G., & Dean, J. (2013). Distributed Representations of Words and Phrases and their Compositionality. arXiv [Cs.CL]. Retrieved from http://arxiv.org/abs/1310.4546
+
+[2] Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient Estimation of Word Representations in Vector Space. arXiv [Cs.CL]. Retrieved from http://arxiv.org/abs/1301.3781
+
