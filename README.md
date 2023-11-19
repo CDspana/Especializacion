@@ -11,25 +11,32 @@ Se llevará a cabo la implementación y entrenamiento de un modelo de Procesamie
 
 # Contenido
 
-- DB_temp: Contiene la base de datos temporal con la que se ha entrenado el modelo de word2vec.
+- DB_temp: Contiene la base de datos temporal a la cual se ha realizado preprocesamiento y que estará destianada a entrenar el modelo de word2vec.
 - notebooks:
+  - google_news_extract.ipynb: Utiliza librerias como GoogleNews y newspaper3k para realizar la extracción de datos de portales noticiosos
   - preprocesamiento.ipynb: Se describe diferentes formas de tokenización y preprocesamiento de palabras como stopwords.
-  - Word2Vec.ipynb: Con la ayuda de tensorflow se implementa y entrena desde cero un modelo skip-gram para obtener embedding. Ademas, se utiliza la libreria Gensim para la creación de embeddings.
+
 
 #  Instrucciones de uso
 
 - Clonar repositorio:
 - https://github.com/CDspana/Especializacion.git
 
-- Abrir el Notebook
-- jupyter notebook Word2Vec.ipynb
+- Si desea conocer las Estructura Típica de Preprocesamiento para proyectos e NLP siga el notebook preprocesamiento.ipynb
+
+  - Abrir el Notebook
+  - jupyter notebook Word2Vec.ipynb
+
+- Si desea extraer datos de google news siga el notebook google_news_extract.ipynb
+
+  - Abrir el Notebook
+  - jupyter notebook google_news_extract.ipynb
 
 # Conclusiones:
 
-- Se a logrado implementar y entrenar un modelo desde cero por medio de tensorflow capaz de generar embeddings de palabras.
-
-- los embeddings obtenidos con  la biblioteca gensim presenta una mayor similitud semantica con respecto a los embeddings entrenados desde cero utilizando tensorflow, esto se debe a que gensim ya posee un preentrenamiento sobre corpus de datos mas grandes.
-
+- Se ha logrado avances significativos en la extracción de datos de google news, y se tiene confianza en superar las limitaciones de bloqueo de IP.
+- Se ha logrado implementar exitosamente un pipeline de pre procesamiento tipico para proyectos de NLP
+  
 # Referencias:
 
 [1] Mikolov, T., Sutskever, I., Chen, K., Corrado, G., & Dean, J. (2013). Distributed Representations of Words and Phrases and their Compositionality. arXiv [Cs.CL]. Retrieved from http://arxiv.org/abs/1310.4546
